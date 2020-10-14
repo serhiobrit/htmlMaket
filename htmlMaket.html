@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML test</title>
+    <style media="screen">
+      p {
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+      div {
+          padding-left: 5px;
+          padding-right: 5px;
+          }
+    </style>
   </head>
   <body>
     <table width = "100%" border = "1">
       <tr>
-        <th colspan="3">
+        <th colspan="3" height = "100">
             <h1>Макет задания по «Основы HTML»</h1>
         </th>
       </tr>
       <tr>
-        <td width = "130" valign="top">
+        <td width = "200" valign="top">
           <h2 align="center">Меню</h2>
           <p align="center"><a href="https://apple.com">Главная</a></p>
           <p align="center"><a href="URL">Продукты</a></p>
@@ -23,7 +33,9 @@
         </td>
         <td valign="top">
           <h2 align="center">Основной контент</h2>
-          <p><img src="pic.png" alt="image" align="right">Давно выяснено, что при  оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).<sup>1</sup></p>
+          <div>
+            <p><img src="pic.png" alt="image" align="right">Давно выяснено, что при  оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).<sup>1</sup>
+            </p>
           <ul>
             <li><i>Курсивный пункт<sup>2</sup></i></li>
             <li><b>Жирный пункт</b></li>
@@ -52,21 +64,21 @@
             </tr>
           </table>
         </td>
-        <td width = "280" valign="top">
+        <td width = "200" valign="top">
           <p><h2 align="center">Вход в личный кабинет</h2></p>
           <form name="login" action="input1.php" align="center">
             <p><b>Логин:</b><br>
-              <input maxlength="20" size="30" name="login" autocomplete="on">
+              <input maxlength="20" size="26" name="login" autocomplete="on">
             </p>
           </form>
           <form name="password" action="input2.php" align="center">
             <p><b>Пароль:</b><br>
-              <input type="password" maxlength="12" size="30" name="password" autocomplete="on">
+              <input type="password" maxlength="12" size="26" name="password" autocomplete="on">
             </p>
           </form>
           <p>
             <div align="center">
-              <select size="3" multiple="role" style="width: 220px;">
+              <select size="3" multiple="role" style="width: 190px;">
                 <option disabled>Выберите роль</option>
                 <option value="Admin">Администратор</option>
                 <option value="User">Пользователь</option>
